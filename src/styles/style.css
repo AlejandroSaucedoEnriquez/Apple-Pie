@@ -1,0 +1,93 @@
+/*Some necessary adjustments*/
+h1,body,html,main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+	height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#contenedor{
+  /*position: relative;*/
+  background-image: url("../images/apple-pie.jpg");
+  background-position-x: 50%;
+  background-position-y:  50%;
+  background-size: 100%;
+  width: 95%;
+  height: 100vh;
+  margin: 40px;
+  margin-right: 10px;
+}
+
+/*Estilos a la imagen de fondo*/
+/*img.fondo{
+  width: 92vw;
+  height: 100vh;
+  margin: 40px;
+  margin-right: 10px;
+  background-position: contain;
+}*/
+
+/*Estilos a las imagenes antes de los ingredientes y antes de la direction o preparacion*/
+.ingcocina{
+  height: 9vh;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.infococina{
+  height: 13vh;
+  margin-left: 460px;
+  margin-top: 30px;
+}
+
+hr{
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid grey;
+}
+
+/*Estilos a la palabra Apple Pie en la foto de fondo */
+h1{
+  display: flex;
+  /*position:absolute;*/
+  padding-top: 200px;
+  color: #ffffff;
+  /*transform: translate(100%, 340%);*/
+  font-size: 4.8rem;
+  margin-right: 150px;
+  margin-top: 70px;
+  margin-left: 420px;
+}
+
+p{
+  color: gray;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  text-align: justify;
+  font-size: 1.13rem;
+}
+
+h3{
+  color: rgb(104, 100, 100);
+  margin-left: 200px;
+}
+
+/*Estiloas alineando el ultimo parrafo*/
+.alinear{
+  margin: 20px;
+  text-align: left;
+}
