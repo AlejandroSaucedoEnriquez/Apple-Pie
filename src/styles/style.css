@@ -8,86 +8,79 @@ html {
   font-size: 18px;
 }
 
-html{
-  height: 100%;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
-body {
-	height: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-
 
 #contenedor{
-  /*position: relative;*/
   background-image: url("../images/apple-pie.jpg");
-  background-position-x: 50%;
-  background-position-y:  50%;
+  border-radius: 5px;
   background-size: 100%;
-  width: 95%;
-  height: 100vh;
-  margin: 40px;
-  margin-right: 10px;
-}
-
-/*Estilos a la imagen de fondo*/
-/*img.fondo{
-  width: 92vw;
-  height: 100vh;
-  margin: 40px;
-  margin-right: 10px;
-  background-position: contain;
-}*/
-
-/*Estilos a las imagenes antes de los ingredientes y antes de la direction o preparacion*/
-.ingcocina{
-  height: 9vh;
-  margin-left: 250px;
-  margin-top: 30px;
-}
-
-.infococina{
-  height: 13vh;
-  margin-left: 460px;
-  margin-top: 30px;
-}
-
-hr{
-  margin-left: 200px;
-  margin-right: 200px;
-  border: 1px solid grey;
-}
-
-/*Estilos a la palabra Apple Pie en la foto de fondo */
-h1{
+  height: 100%;
+  width: 90%;
   display: flex;
-  /*position:absolute;*/
-  padding-top: 200px;
-  color: #ffffff;
-  /*transform: translate(100%, 340%);*/
+  align-items: center;
+  justify-content: center;
+  margin: 10px 50px 10px 70px;
+  
+ 
+  
+}
+html,body{
+  height: 100%;
+  font-family: sans-serif;
+}
+h1{
+  color: white;
   font-size: 4.8rem;
-  margin-right: 150px;
-  margin-top: 70px;
-  margin-left: 420px;
-}
-
-p{
-  color: gray;
-  padding-left: 200px;
-  padding-right: 200px;
   text-align: center;
+  
+}
+p{
+  padding: 50px 400px;
+  color: grey;
   text-align: justify;
-  font-size: 1.13rem;
+  font-size: 28.5px;
+}
+.img-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.ingredients{
+  color: gray;
+  margin-left: 220px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  text-align: left;
 }
 
+.ingredients li{
+  font-size: 24px;
+}
 h3{
-  color: rgb(104, 100, 100);
+  color: rgb(82, 81, 81);
+  margin-top: 50px;
   margin-left: 200px;
 }
-
-/*Estiloas alineando el ultimo parrafo*/
-.alinear{
-  margin: 20px;
-  text-align: left;
+#icon1 {
+  width: 25%;
+}
+#icon2 {
+  width: 23%;
+}
+hr{
+  margin: 5px 200px;
+}
+h2{
+  text-align: center;
+  color: gray;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
